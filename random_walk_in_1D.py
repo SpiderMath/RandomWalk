@@ -4,6 +4,7 @@ from matplotlib import pyplot
 def main(end: int, numberOfWalks: int = 10):
 	for i in range(0, numberOfWalks):
 		plotRandomWalk(end)
+
 	pyplot.title('Random Walk in 1 Dimension')
 	pyplot.show()
 
